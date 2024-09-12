@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="membership.html">Membership</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="product-detail">
+            <img id="product-image" src="shoe1.jpg" alt="Product Image">
+            <div class="product-info">
+                <h2 id="product-name">Product Name</h2>
+                <p id="product-description">Description of the product.</p>
+                <p id="product-price">Price: $100</p>
+                <button class="btn" onclick="addToCart()">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product-detail">
+            <img id="product-image" src="shoe1.jpg" alt="Product Image">
+            <div class="product-info">
+                <h2 id="product-name">Product Name</h2>
+                <p id="product-description">Description of the product.</p>
+                <p id="product-price">Price: $120</p>
+                <button class="btn" onclick="addToCart()">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product-detail">
+            <img id="product-image" src="shoe1.jpg" alt="Product Image">
+            <div class="product-info">
+                <h2 id="product-name">Product Name</h2>
+                <p id="product-description">Description of the product.</p>
+                <p id="product-price">Price: $150</p>
+                <button class="btn" onclick="addToCart()">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product-detail">
+            <img id="product-image" src="shoe1.jpg" alt="Product Image">
+            <div class="product-info">
+                <h2 id="product-name">Product Name</h2>
+                <p id="product-description">Description of the product.</p>
+                <p id="product-price">Price: $170</p>
+                <button class="btn" onclick="addToCart()">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product-detail">
+            <img id="product-image" src="shoe1.jpg" alt="Product Image">
+            <div class="product-info">
+                <h2 id="product-name">Product Name</h2>
+                <p id="product-description">Description of the product.</p>
+                <p id="product-price">Price: $200</p>
+                <button class="btn" onclick="addToCart()">Add to Cart</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Shoe Store. All rights reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+    <script>
+        const products = {
+            1: {
+                name: "Product 1",
+                description: "This is the description for Product 1.",
+                price: "$100",
+                image: "shoe1.jpg"
+            },
+            2: {
+                name: "Product 2",
+                description: "This is the description for Product 2.",
+                price: "$120",
+                image: "shoe2.jpg"
+            },
+            3: {
+                name: "Product 3",
+                description: "This is the description for Product 2.",
+                price: "$150",
+                image: "shoe2.jpg"
+            },
+            4: {
+                name: "Product 4",
+                description: "This is the description for Product 2.",
+                price: "$170",
+                image: "shoe2.jpg"
+            },
+            5: {
+                name: "Product 5",
+                description: "This is the description for Product 2.",
+                price: "$200",
+                image: "shoe2.jpg"
+            }
+        }
+    </script>
+</body>
+</html>
